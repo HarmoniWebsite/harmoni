@@ -1,0 +1,150 @@
+.formCont {
+    display: flex;
+    flex-direction: column;
+    margin: 75px 0;
+    font-family: 'poppins';
+}
+
+.formCont h3 {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.64px;
+    color: #969696;
+    margin-bottom: 65px;
+}
+
+.formCont .emailCont {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.formCont .emailCont input {
+    background-color: #F9F9F9;
+    outline: none;
+    border: none;
+    height: 33px;
+    border-bottom: 0.5px solid #cacaca;
+    font-family: 'poppins';
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: -0.64px;
+    color: #2F5E22;
+}
+
+.formCont .emailCont input::placeholder {
+    color: #2F5E22;
+}
+
+.formCont .emailCont input:focus::placeholder {
+    opacity: 0.5;
+}
+
+.formCont .emailCont button {
+    display: flex;
+    width: 140px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'poppins';
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: -0.64px;
+    color: #F9F9F9;
+    background-color: #1A3E1A;
+    border-left: 6.3px solid #8DBE40;
+    outline: none;
+    box-shadow: none;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    transition: all 0.5s ease;
+    padding: 14px 16px;
+}
+
+.formCont .emailCont .enableBtn {
+    opacity: 1;
+    cursor: pointer;
+}
+
+.formCont .emailCont .disableBtn {
+    opacity: 0.5;
+    cursor: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .formCont {
+        margin: 104px 0;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .formCont .emailCont {
+        width: 60%;
+    }
+
+    .formCont .emailCont button {
+        width: 170px;
+        font-size: 16px;
+        padding: 14px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1901px) {
+    .formCont {
+        margin-top: 80px;
+        margin-bottom: 144px;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .formCont .emailCont {
+        width: 50%;
+    }
+
+    .formCont .emailCont button {
+        width: 170px;
+        font-size: 16px;
+        padding: 14px;
+    }
+
+    .formCont .emailCont .enableBtn:hover {
+        background-color: #8DBE40;
+        border-left: 6.3px solid #1A3E1A;
+    }
+}
+
+@media screen and (min-width: 1901px) {
+    .formCont {
+        margin-top: 100px;
+        margin-bottom: 184px;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .formCont h3 {
+        font-size: 22px;
+    }
+
+    .formCont .emailCont {
+        gap: 120px;
+        width: 50%;
+    }
+
+    .formCont .emailCont input {
+        font-size: 22px;
+    }
+
+    .formCont .emailCont button {
+        width: 240px;
+        font-size: 22px;
+        padding: 16px;
+    }
+
+    .formCont .emailCont .enableBtn:hover {
+        background-color: #8DBE40;
+        border-left: 6.3px solid #1A3E1A;
+    }
+}

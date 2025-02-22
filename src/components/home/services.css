@@ -1,0 +1,307 @@
+.servicesCont {
+    margin-top: 35px;
+    font-family: 'poppins';
+    color: #F9F9F9;
+}
+
+.servicesCont .titleCont {
+    display: flex;
+    position: absolute;
+    z-index: 1;
+    padding: 0 18px;
+}
+
+.servicesCont .titleCont .sTitle {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.servicesCont .titleCont .sTitle h1 {
+    color: #376A25;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 54px;
+    letter-spacing: -2px;
+}
+
+.servicesCont .titleCont .sTitle h1>span {
+    color: #969696;
+    font-size: 16px;
+    line-height: 96%;
+    letter-spacing: -0.642px;
+}
+
+.servicesCont .titleCont .arrow {
+    display: none;
+}
+
+/* -------- */
+
+.servicesCont .swiperCont {
+    display: flex;
+    margin: 40px -18px 0 -18px;
+    width: auto;
+}
+
+.servicesCont .swiperCont .service {
+    height: 452px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 80px;
+    transition: all 1s ease
+}
+
+.servicesCont .swiperCont .service .title {
+    height: auto;
+    margin: 18px;
+    margin-top: 26px;
+}
+
+.servicesCont .swiperCont .service .title .name {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: -0.96px;
+    height: auto;
+}
+
+.servicesCont .swiperCont .service .title .type {
+    text-align: center;
+    font-family: 'poppins-regular';
+    font-size: 12px;
+    font-weight: 400;
+    border: 0.5px solid #F9F9F9;
+    width: 80px;
+    padding: 4px 8px;
+    margin-top: 14px;
+}
+
+.servicesCont .swiperCont .service .info {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 18px;
+    margin-left: 36px;
+    margin-bottom: 28px;
+    font-family: 'poppins-regular';
+    font-weight: 400;
+    height: auto;
+    letter-spacing: -0.56px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .servicesCont .swiperCont {
+        margin: 40px -32px 0 -32px;
+    }
+
+    .servicesCont .titleCont {
+        padding: 0 32px;
+    }
+
+    .servicesCont .swiperCont .service .title .name {
+        font-size: 28px;
+    }
+
+    .servicesCont .swiperCont .service .title {
+        margin: 32px;
+    }
+
+    .servicesCont .swiperCont .service .info {
+        margin-left: 50px;
+    }
+
+    .servicesCont .swiperCont .service {
+        margin-top: 90px;
+    }
+
+    .servicesCont .titleCont .sTitle h1 {
+        font-size: 64px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+    .servicesCont {
+        padding-top: 64px;
+    }
+
+    .servicesCont .titleCont {
+        margin: 15px 0;
+        justify-content: space-between;
+        padding: 0 69px;
+    }
+
+    .servicesCont .titleCont .arrow {
+        display: flex;
+        align-items: end;
+        gap: 1vw;
+    }
+
+    .servicesCont .titleCont .arrow div {
+        display: flex;
+        border: 0.5px solid #376A25;
+        align-items: center;
+    }
+
+    .servicesCont .titleCont .arrow .arrLeft {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .servicesCont .titleCont .arrow .arrLeft:hover {
+        background-color: #376A25;
+    }
+
+    .servicesCont .titleCont .arrow .arrLeft .left {
+        background-size: cover;
+        width: 25px;
+        margin: 10px 20px;
+    }
+
+    .servicesCont .titleCont .arrow .arrRight {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .servicesCont .titleCont .arrow .arrRight:hover {
+        background-color: #376A25;
+    }
+
+    .servicesCont .titleCont .arrow .arrRight .right {
+        background-size: cover;
+        width: 25px;
+        margin: 10px 20px;
+    }
+
+    .servicesCont .swiperCont {
+        margin: 40px -69px 0 -69px;
+    }
+
+    .servicesCont .titleCont .sTitle {
+        height: 100%;
+        width: 50%;
+    }
+
+    .servicesCont .titleCont .sTitle h1 {
+        font-size: 96px;
+    }
+
+    .servicesCont .titleCont .sTitle h1>span {
+        font-size: 26px;
+    }
+
+    .servicesCont .swiperCont .service {
+        height: 85vh;
+        margin-top: 160px;
+        /* width: 50% !important; */
+    }
+
+    .servicesCont .swiperCont .service .title {
+        margin: 69px;
+    }
+
+    .servicesCont .swiperCont .service .title .name {
+        font-size: 46px;
+    }
+
+    .servicesCont .swiperCont .service .info {
+        margin: 69px;
+        margin-left: 85px;
+    }
+}
+
+@media screen and (min-width: 1901px) {
+    .servicesCont {
+        padding-top: 84px;
+    }
+
+    .servicesCont .titleCont {
+        margin: 32px 0;
+        justify-content: space-between;
+        padding: 0 69px;
+    }
+
+    .servicesCont .titleCont .arrow {
+        display: flex;
+        align-items: end;
+        gap: 1vw;
+    }
+
+    .servicesCont .titleCont .arrow div {
+        display: flex;
+        border: 0.5px solid #376A25;
+        align-items: center;
+    }
+
+    .servicesCont .titleCont .arrow .arrLeft {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .servicesCont .titleCont .arrow .arrLeft:hover {
+        background-color: #376A25;
+    }
+
+    .servicesCont .titleCont .arrow .arrLeft .left {
+        background-size: cover;
+        width: 30px;
+        margin: 13px 28px;
+    }
+
+    .servicesCont .titleCont .arrow .arrRight {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .servicesCont .titleCont .arrow .arrRight:hover {
+        background-color: #376A25;
+    }
+
+    .servicesCont .titleCont .arrow .arrRight .right {
+        background-size: cover;
+        width: 30px;
+        margin: 13px 28px;
+    }
+
+    .servicesCont .swiperCont {
+        margin: 40px -69px 0 -69px;
+    }
+
+    .servicesCont .titleCont .sTitle {
+        height: 100%;
+        width: 50%;
+    }
+
+    .servicesCont .titleCont .sTitle h1 {
+        font-size: 128px;
+    }
+
+    .servicesCont .titleCont .sTitle h1>span {
+        font-size: 28px;
+    }
+
+    .servicesCont .swiperCont .service {
+        height: 85vh;
+        margin-top: 200px;
+    }
+
+    .servicesCont .swiperCont .service .title {
+        margin: 69px;
+    }
+
+    .servicesCont .swiperCont .service .title .name {
+        font-size: 60px;
+    }
+
+    .servicesCont .swiperCont .service .info {
+        margin: 69px;
+        margin-left: 85px;
+        font-size: 22px;
+    }
+
+    .servicesCont .swiperCont .service .title .type {
+        font-size: 18px;
+        padding: 8px 0px;
+        width: 95px;
+    }
+}

@@ -1,0 +1,22 @@
+.abtUs {
+    position: relative;
+    padding-top: 15px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .abtUs {
+        padding-top: 75px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+    .abtUs {
+        padding-top: 144px;
+    }
+}
+
+@media screen and (min-width: 1901px) {
+    .abtUs {
+        padding-top: 184px;
+    }
+}

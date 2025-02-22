@@ -1,0 +1,245 @@
+.createCont {
+    display: flex;
+    height: auto;
+    margin-top: 48px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1.8vw;
+    font-family: 'poppins';
+}
+
+.createCont>div {
+    display: flex;
+    flex-direction: column;
+    width: 49%;
+    height: 200px;
+    border: 1px solid #CACACA;
+    flex-shrink: 0;
+    padding: 10px;
+}
+
+.createCont>.title {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border: none;
+}
+
+.createCont .title h1 {
+    margin-left: -5px;
+    height: auto;
+    color: #8DBE40;
+    font-style: italic;
+    font-size: 46px;
+    line-height: 120%;
+    letter-spacing: -4px;
+}
+
+.createCont .title h1 span {
+    color: #376A25;
+    font-style: normal;
+}
+
+.createCont .content:nth-child(1),
+.createCont .content:nth-child(2),
+.createCont .content:nth-child(5),
+.createCont .content:nth-child(11) {
+    display: none;
+}
+
+
+.createCont .content .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.createCont .content .text img {
+    padding-top: 5px;
+    margin-top: 11px;
+    width: 90%;
+    height: auto;
+    align-self: center;
+}
+
+.createCont .content .text .textDalam {
+    height: auto;
+}
+
+.createCont .content .text .textDalam h3 {
+    font-size: 16px;
+    height: auto;
+    color: #8DBE40;
+    font-style: italic;
+    letter-spacing: 1.5px;
+}
+
+.createCont .content .text .textDalam h3 span {
+    height: auto;
+    color: #376A25;
+    font-style: normal;
+    letter-spacing: -1px;
+}
+
+.createCont .content .text .textDalam p {
+    width: 90%;
+    font-family: 'poppins-regular';
+    height: auto;
+    color: #969696;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.3px;
+}
+
+@media (min-width: 550px) and (max-width: 767px) {
+    .createCont .content .text img {
+        width: 200px;
+        padding-top: 15px;
+    }
+
+    .createCont .content .text .textDalam p {
+        width: 200px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .createCont {
+        gap: 0.5vw;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .createCont>div {
+        width: 24.52%;
+        padding: 14px;
+    }
+
+    .createCont .content:nth-child(1),
+    .createCont .content:nth-child(2),
+    .createCont .content:nth-child(5),
+    .createCont .content:nth-child(11) {
+        display: inline;
+        border: 0;
+    }
+
+    .createCont .content .text .textDalam h3 {
+        font-size: 18px;
+    }
+
+    .createCont .content .text .textDalam h3 span {
+        letter-spacing: -0.5px;
+    }
+
+    .createCont .content .text img {
+        align-self: start;
+    }
+
+    .createCont .title {
+        padding: 0;
+    }
+
+    .createCont .title h1 {
+        font-size: 6vw;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+    .createCont {
+        gap: 0.5vw;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .createCont>div {
+        width: 24.52%;
+        padding: 14px;
+        height: 200px;
+    }
+
+    .createCont .content:nth-child(1),
+    .createCont .content:nth-child(2),
+    .createCont .content:nth-child(5),
+    .createCont .content:nth-child(11) {
+        display: inline;
+        border: 0;
+    }
+
+    .createCont .content .text .textDalam p {
+        width: 200px;
+    }
+
+    .createCont .content .text .textDalam h3 {
+        font-size: 20px;
+    }
+
+    .createCont .content .text .textDalam h3 span {
+        letter-spacing: -0.5px;
+    }
+
+    .createCont .content .text img {
+        align-self: center;
+        width: 200px;
+        padding-top: 4px;
+    }
+
+    .createCont .title {
+        padding: 0;
+    }
+
+    .createCont .title h1 {
+        font-size: 6vw;
+    }
+}
+
+@media screen and (min-width: 1901px) {
+    .createCont {
+        gap: 0.5vw;
+        justify-content: center;
+        margin-top: 0;
+    }
+
+    .createCont>div {
+        width: 24.52%;
+        padding: 18px;
+        height: 260px;
+    }
+
+    .createCont .content:nth-child(1),
+    .createCont .content:nth-child(2),
+    .createCont .content:nth-child(5),
+    .createCont .content:nth-child(11) {
+        display: inline;
+        border: 0;
+    }
+
+    .createCont .content .text .textDalam p {
+        width: 250px;
+        font-size: 22px;
+    }
+
+    .createCont .content .text .textDalam h3 {
+        font-size: 24px;
+        margin-bottom: 4px;
+    }
+
+    .createCont .content .text .textDalam h3 span {
+        letter-spacing: -0.5px;
+    }
+
+    .createCont .content .text img {
+        padding-top: 10px;
+        align-self: center;
+        width: 260px;
+    }
+
+    .createCont .title {
+        padding: 0;
+    }
+
+    .createCont .title h1 {
+        font-size: 6vw;
+    }
+}

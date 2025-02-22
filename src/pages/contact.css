@@ -1,0 +1,27 @@
+.contactMain {
+    display: flex;
+    flex-direction: column;
+    margin: 0 18px;
+    height: auto;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contactMain {
+        padding-top: 114px;
+        margin: 0 32px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+    .contactMain {
+        padding-top: 164px;
+        margin: 0 69px;
+    }
+}
+
+@media screen and (min-width: 1901px) {
+    .contactMain {
+        padding-top: 224px;
+        margin: 0 69px;
+    }
+}

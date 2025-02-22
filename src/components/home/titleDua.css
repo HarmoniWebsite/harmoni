@@ -1,0 +1,50 @@
+.titleCont {
+    height: auto;
+    width: 100%;
+}
+
+.titleCont h3 {
+    font-family: 'poppins';
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: -0.72px;
+    color: #969696;
+    max-width: 350px;
+}
+
+.titleCont h3 .green {
+    color: #8DBE40;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .titleCont {
+        position: absolute;
+    }
+
+    .titleCont h3 {
+        font-size: 18px;
+        max-width: 320px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+    .titleCont {
+        position: absolute;
+    }
+
+    .titleCont h3 {
+        font-size: 24px;
+        max-width: 450px;
+    }
+}
+
+@media screen and (min-width: 1901px) {
+    .titleCont {
+        position: absolute;
+    }
+
+    .titleCont h3 {
+        font-size: 32px;
+        max-width: 650px;
+    }
+}

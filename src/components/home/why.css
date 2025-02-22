@@ -1,0 +1,101 @@
+.whyCont {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    margin-top: 75px;
+    font-family: 'poppins';
+}
+
+.whyCont .title h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #376A25;
+    letter-spacing: -0.8px;
+}
+
+.whyCont .lists li {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    border-top: 0.5px solid #CACACA;
+    width: 100%;
+    padding: 18px 0;
+}
+
+.whyCont .lists li h3 {
+    font-family: 'poppins-regular';
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+    color: #376A25;
+}
+
+.whyCont .lists li p {
+    font-family: 'poppins-regular';
+    color: #969696;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: -0.3px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .whyCont {
+        margin-top: 90px;
+    }
+
+    .whyCont .title h2 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1900px) {
+    .whyCont {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 144px;
+    }
+
+    .whyCont .lists,
+    .whtCont .title {
+        width: 50%;
+    }
+
+    .whyCont .title h2 {
+        font-size: 32px;
+    }
+
+    .whyCont .lists li h3 {
+        font-size: 24px;
+    }
+
+    .whyCont .lists li p {
+        max-width: 500px;
+    }
+}
+
+@media screen and (min-width:1901px) {
+    .whyCont {
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 184px;
+    }
+
+    .whyCont .lists,
+    .whtCont .title {
+        width: 50%;
+    }
+
+    .whyCont .title h2 {
+        font-size: 44px;
+    }
+
+    .whyCont .lists li h3 {
+        font-size: 32px;
+    }
+
+    .whyCont .lists li p {
+        max-width: 800px;
+        font-size: 22px;
+    }
+}

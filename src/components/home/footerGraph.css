@@ -1,0 +1,125 @@
+.graphCont {
+    margin: 0 -18px 0 -18px;
+}
+
+.wadah {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: #376A25;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.wadah .wadahGambar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    /* height: 1250px; */
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* width: 1000px; */
+    left: -400px;
+    width: 1920px;
+    /* left: 0; */
+    height: 1700px;
+    top: -62px;
+}
+
+@keyframes leftMot {
+    from {
+        transform: translateX(-110px);
+    }
+
+    to {
+        transform: translateX(-230px);
+    }
+}
+
+@keyframes rightMot {
+    from {
+        transform: translateX(-230px);
+    }
+
+    to {
+        transform: translateX(-110px);
+    }
+}
+
+.wadah .wadahGambar div {
+    position: relative;
+    height: 100%;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.wadah .wadahGambar .satu,
+.empat {
+    animation-name: rightMot;
+}
+
+.wadah .wadahGambar .dua,
+.tiga {
+    animation-name: leftMot;
+}
+
+
+.wadah .wadahGambar div img {
+    position: absolute;
+    width: 230px;
+    height: 180px;
+}
+
+.wadah .wadahGambar .tiga {
+    margin-top: -14px;
+}
+
+.wadah .wadahGambar .tiga img,
+.satu img {
+    rotate: 180deg;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .graphCont {
+        margin: 0 -32px
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .graphCont {
+        margin: 0 -69px
+    }
+
+    .wadah .wadahGambar {
+        left: 0;
+        top: -22px;
+    }
+
+    .wadah .wadahGambar div img {
+        width: 230px;
+        height: 180px;
+    }
+
+    @keyframes leftMot {
+        from {
+            transform: translateX(-110px);
+        }
+
+        to {
+            transform: translateX(-230px);
+        }
+    }
+
+    @keyframes rightMot {
+        from {
+            transform: translateX(-230px);
+        }
+
+        to {
+            transform: translateX(-110px);
+        }
+    }
+
+}

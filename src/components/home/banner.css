@@ -1,0 +1,47 @@
+.banner {
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+    margin: 75px -18px 0 -18px;
+}
+
+.banner img {
+    position: relative;
+    object-fit: cover;
+    left: -230px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .banner {
+        margin: 75px -32px 0 -32px;
+    }
+
+    .banner img {
+        left: 0;
+        width: 100vw;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+    .banner {
+        margin: 144px -69px 0 -69px;
+    }
+
+    .banner img {
+        left: 0;
+        width: 100vw;
+    }
+}
+
+@media screen and (min-width: 1901px) {
+    .banner {
+        margin: 184px -69px 0 -69px;
+    }
+
+    .banner img {
+        left: 0;
+        width: 100vw;
+    }
+}

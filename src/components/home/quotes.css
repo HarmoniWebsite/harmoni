@@ -1,0 +1,262 @@
+.quotesCont {
+    display: flex;
+    flex-direction: column;
+    margin: 144px 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.quotesCont .title .rectaCont {
+    display: flex;
+}
+
+.quotesCont .title .rectaCont .recta {
+    width: 100%;
+    height: 15px;
+    margin-top: 10px;
+}
+
+.quotesCont .title .rectaCont .lightG {
+    background-color: #8DBE40;
+}
+
+.quotesCont .title .rectaCont .green {
+    background-color: #376A25;
+}
+
+.quotesCont .title .rectaCont .darkG {
+    background-color: #1A3E1A;
+}
+
+.quotesCont .title .text {
+    margin-top: 45px;
+    font-family: 'poppins-regular';
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: -0.8px;
+    color: #969696;
+}
+
+.quotesCont .title .text .lightG {
+    color: #8DBE40;
+}
+
+.quotesCont .title .text .green {
+    color: #376A25;
+}
+
+.quotesCont .title .text .darkG {
+    color: #1A3E1A;
+}
+
+/* Images */
+
+.quotesCont .images {
+    display: flex;
+    margin-top: 45px;
+    overflow-x: hidden;
+    align-items: end;
+}
+
+.quotesCont .images .leftImage {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.quotesCont .images .leftImage .leftOne {
+    width: 223px;
+    height: 237px;
+    object-fit: cover;
+    border-bottom: 13px solid #376A25;
+}
+
+.quotesCont .images .leftImage .leftOneTwo {
+    display: flex;
+    justify-content: end;
+}
+
+.quotesCont .images .leftImage .leftTwo {
+    width: 19px;
+    height: 19px;
+    background-color: #1A3E1A;
+}
+
+.quotesCont .images .leftImage .leftThree {
+    width: 90px;
+    height: 96px;
+    border-bottom: 7px solid #1A3E1A;
+}
+
+.quotesCont .images .rightImage {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21px;
+}
+
+.quotesCont .images .rightImage .rightOne {
+    width: 47px;
+    height: 47px;
+    background-color: #8DBE40
+}
+
+.quotesCont .images .rightImage .rightTwo {
+    width: 116px;
+    height: 122px;
+    background-color: #8DBE40;
+    border-bottom: 9px solid #8DBE40;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .quotesCont {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 144px 0;
+    }
+
+    .quotesCont .title {
+        width: 41%;
+    }
+
+    .quotesCont .title .rectaCont {
+        max-width: 560px;
+    }
+
+    .quotesCont .title .text {
+        font-size: 18px;
+        max-width: 560px;
+    }
+
+    .quotesCont .images {
+        margin-top: 0px;
+        width: 53%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+    .quotesCont {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 229px 0;
+    }
+
+
+    .quotesCont .title {
+        width: 41%;
+    }
+
+    .quotesCont .title .rectaCont {
+        max-width: 560px;
+    }
+
+    .quotesCont .title .text {
+        font-size: 32px;
+        max-width: 560px;
+    }
+
+    .quotesCont .images {
+        margin-top: 0px;
+        width: 53%;
+        justify-content: center;
+    }
+
+    .quotesCont .images .leftImage .leftOne {
+        width: 405px;
+        height: 430px;
+        border-bottom: 23px solid #376A25;
+    }
+
+    .quotesCont .images .leftImage .leftOneTwo .leftTwo {
+        width: 34px;
+        height: 34px;
+    }
+
+    .quotesCont .images .leftImage .leftOneTwo .leftThree {
+        width: 163px;
+        height: 174px;
+        border-bottom: 13px solid #1A3E1A;
+    }
+
+    .quotesCont .images .rightImage {
+        margin-bottom: 38px;
+    }
+
+    .quotesCont .images .rightImage .rightOne {
+        width: 85px;
+        height: 85px;
+    }
+
+    .quotesCont .images .rightImage .rightTwo {
+        width: 211px;
+        height: 222px;
+        border-bottom: 16px solid #8DBE40;
+    }
+}
+
+@media screen and (min-width: 1901px) {
+    .quotesCont {
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 300px 0;
+    }
+
+
+    .quotesCont .title {
+        width: 41%;
+    }
+
+    .quotesCont .title .rectaCont {
+        max-width: 750px;
+    }
+
+    .quotesCont .title .text {
+        font-size: 44px;
+        max-width: 750px;
+    }
+
+    .quotesCont .title .rectaCont .recta {
+        height: 20px;
+    }
+
+    .quotesCont .images {
+        margin-top: 0px;
+        width: 53%;
+        justify-content: center;
+    }
+
+
+    .quotesCont .images .leftImage .leftOne {
+        width: 555px;
+        height: 580px;
+        border-bottom: 28px solid #376A25;
+    }
+
+    .quotesCont .images .leftImage .leftOneTwo .leftTwo {
+        width: 64px;
+        height: 64px;
+    }
+
+    .quotesCont .images .leftImage .leftOneTwo .leftThree {
+        width: 253px;
+        height: 254px;
+        border-bottom: 18px solid #1A3E1A;
+    }
+
+    .quotesCont .images .rightImage {
+        margin-bottom: 88px;
+    }
+
+    .quotesCont .images .rightImage .rightOne {
+        width: 135px;
+        height: 135px;
+    }
+
+    .quotesCont .images .rightImage .rightTwo {
+        width: 311px;
+        height: 322px;
+        border-bottom: 21px solid #8DBE40;
+    }
+}

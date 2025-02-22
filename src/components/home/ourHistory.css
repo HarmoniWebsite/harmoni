@@ -1,0 +1,126 @@
+.historyCont {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    font-family: 'poppins';
+}
+
+.historyCont .history>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-left: 15px solid;
+}
+
+.historyCont .history .first {
+    gap: 17px;
+    height: 180px;
+    background-color: #ffffff;
+    border-left: 15px solid #1A3E1A;
+}
+
+.historyCont h3 {
+    font-size: 20px;
+    height: auto;
+    color: #376A25;
+    letter-spacing: -0.8px;
+    margin-bottom: 24px;
+}
+
+.historyCont .history div p {
+    height: auto;
+    font-family: 'poppins-regular';
+    margin: 0 17px;
+    font-size: 16px;
+    color: #969696;
+    line-height: 160%;
+    letter-spacing: -0.3px;
+}
+
+.historyCont .history .second {
+    height: 157px;
+    border-left: 15px solid #376A25;
+}
+
+.historyCont .history .third {
+    height: 105px;
+    background-color: #F1f1f1;
+    border-left: 15px solid #8DBE40;
+}
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .historyCont {
+        flex-direction: row;
+        margin-top: 90px;
+    }
+
+    .historyCont .hisTitle {
+        width: 50%;
+    }
+
+    .historyCont .history div p {
+        margin: 0 55px;
+        max-width: 550px;
+    }
+
+    .historyCont h3 {
+        font-size: 26px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+    .historyCont {
+        flex-direction: row;
+        margin-top: 144px;
+    }
+
+    .historyCont>div {
+        width: 50%;
+    }
+
+    .historyCont .history div p {
+        margin: 0 55px;
+        max-width: 550px;
+    }
+
+    .historyCont h3 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (min-width: 1901px) {
+    .historyCont {
+        flex-direction: row;
+        margin-top: 184px;
+    }
+
+    .historyCont>div {
+        width: 50%;
+    }
+
+    .historyCont .history div p {
+        margin: 0 65px;
+        max-width: 750px;
+        font-size: 22px;
+    }
+
+    .historyCont h3 {
+        font-size: 44px;
+    }
+
+    .historyCont .history .first {
+        height: 230px;
+        border-left: 20px solid #1A3E1A;
+    }
+
+    .historyCont .history .second {
+        height: 207px;
+        border-left: 20px solid #376A25;
+    }
+
+    .historyCont .history .third {
+        height: 155px;
+        border-left: 20px solid #8DBE40;
+    }
+}

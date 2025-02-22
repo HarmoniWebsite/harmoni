@@ -1,0 +1,61 @@
+.h1Cont {
+    width: 100%;
+    padding-top: 24px;
+    padding-bottom: 47px;
+    border-bottom: 0.5px solid#CACACA;
+    height: auto;
+}
+
+.h1Cont h1 {
+    font-family: 'poppins';
+    font-size: 36px;
+    line-height: 115%;
+    letter-spacing: -1.44px;
+    font-weight: 500;
+    color: #8DBE40;
+}
+
+.h1Cont h1 span {
+    color: #376A25;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .h1Cont {
+        padding-top: 0;
+        padding-bottom: 64px;
+    }
+
+    .h1Cont h1 {
+        font-size: 46px;
+        letter-spacing: -2.56px;
+        width: 85vw;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1900px) {
+    .h1Cont {
+        padding-top: 0;
+        padding-bottom: 90px;
+    }
+
+    .h1Cont h1 {
+        font-size: 64px;
+        letter-spacing: -2.56px;
+        max-width: 1300px;
+        line-height: 98%;
+    }
+}
+
+@media screen and (min-width: 1901px) {
+    .h1Cont {
+        padding-top: 0;
+        padding-bottom: 6vw;
+    }
+
+    .h1Cont h1 {
+        font-size: 82px;
+        letter-spacing: -2.56px;
+        max-width: 1600px;
+        line-height: 98%;
+    }
+}
