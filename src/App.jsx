@@ -12,7 +12,7 @@ function App() {
   return (
     <div className='containerM'>
       <ScrollToTop />
-      <Routes>
+      <Routes basename='/'>
         <Route index element={<Home />} />
         <Route path='contact-us' element={<Contact />} />
       </Routes>
